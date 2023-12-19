@@ -29,7 +29,9 @@ def divide(x, y, z=None):
         return x / y
 
 # Take  in the first , second, & the operation, then asks if the user would like to add another number.
-# The anwsers yes/no are not case sensitive.
+# The anwsers yes/no are not case sensitive. Because the anwser is converted to all lowercase before the comparison 
+# The anwsers yes/no are not case sensitive. Because the anwser is converted to all lowercase before the comparison 
+# The anwsers yes/no are not case sensitive. Because the anwser is converted to all lowercase before the comparison 
 num1 = float(input("Enter the first number: "))
 operation = input("Enter the operation (+, -, *, /): ")
 num2 = float(input("Enter the second number: "))
