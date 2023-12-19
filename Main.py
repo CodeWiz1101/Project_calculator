@@ -23,6 +23,12 @@ def divide(x, y):
 num1 = float(input("Enter the first number: "))
 operation = input("Enter the operation (+, -, *, /): ")
 num2 = float(input("Enter the second number: "))
+AddAnothernum = (input ("Would you Like to add another number yes or no?"))
+
+if (isNaN(inputValue1) || isNaN(inputValue2) || isNaN(inputValue3)) {
+        alert("Please enter valid numbers for all inputs.");
+        return;
+      }
 
 # Perform calculation based on the chosen operation
 if operation == '+':
